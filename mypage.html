@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="mypage.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+    <nav>
+        <button id="imdb">IMDb</button>
+        <button id="sign" onclick="myfunction11()">Sign In</button>
+
+<input type="text" placeholder="Search IMDB"> <i class="fa-solid fa-magnifying-glass"></i>
+<button id="menb" onclick="myfunc()"><i class="fa-solid fa-bars"></i> <p id="menu">Menu</p> </button>
+
+
+    </nav>
+
+<div id="special-nav">
+  
+<ul id="ust">
+ <button onclick="myfunc()"><i class="fa-sharp fa-solid fa-x"></i></button> 
+<li>
+<a href="#"> <i class="fa-solid fa-film"></i> Movies</a>
+<ul class="alt" id="alt1">
+  <li><a href="#">Top 250 Movies</a></li>
+  <li><a href="#">Top Box Office</a></li>
+  <li><a href="#">Release Calendar</a></li>
+  <li><a href="#">Browse Movies by Genre</a></li>
+  <li><a href="#">Movie News</a></li>
+  </ul>
+</li>
+<li>
+<a href="#"><i class="fa-solid fa-tv"></i> TV-show</a>
+<ul class="alt" id="alt2">
+<li><a href="#">Top 250 TV Shows</a></li>
+<li><a href="#">Most Popular TV Shows</a></li>
+<li><a href="#">TV News</a></li>
+</ul>
+</li>
+<li>
+<a href="#"><i class="fa-sharp fa-solid fa-circle-play"></i> Watch</a>
+<ul class="alt" id="alt3">
+<li><a href="#">What to Watch</a></li>
+<li><a href="#">Latest Trailers</a></li>
+<li><a href="#">IMDb Originals</a></li>
+</ul>
+
+
+</li>
+<li>
+  <a href="#"> <i class="fa-sharp fa-solid fa-star"></i> Award & Events</a>
+  <ul class="alt" id="alt4">
+  <li><a href="#">Oscars</a></li>
+  <li><a href="#">Asian Heritage Month</a></li>
+  <li><a href="#">Cannes</a></li>
+  <li><a href="#">Awards Central</a></li>
+  <li><a href="#">All Events</a></li>
+  </ul>
+  
+  
+  </li>
+  <li>
+    <a href="#"><i class="fa-solid fa-user-group"></i> Celebs</a>
+    <ul class="alt" id="alt5">
+    <li><a href="#BORN">Born Today</a></li>
+    <li><a href="#">Most Popular Celeps</a></li>
+    <li><a href="#">Celebrity News</a></li>
+    </ul>
+    
+    
+    </li>
+    <li>
+      <a href="#"><i class="fa-solid fa-globe"></i>  Community</a>
+      <ul class="alt" id="alt6">
+      <li><a href="#">Help Center</a></li>
+      <li><a href="#">Contributor Zone</a></li>
+      <li><a href="#">Polls</a></li>
+      </ul>
+      
+      
+      </li>
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div id="special-login" >
+<div class="box-1" id="box-1">
+
+</div>
+<div class="box-1" id="box-2">
+
+</div>
+<div class="box-1" id="box-3">
+
+</div>
+<form action="">
+ <button onclick="myfunction11()" id="xx"><i class="fa-sharp fa-solid fa-x"></i></button>
+<h1>Sign in</h1>
+<p>Name</p>
+  <input type="text" placeholder="Name" required minlength="4" autocomplete="none">
+<p>Surname</p>
+<input  type="text" placeholder="Surname" required minlength="6" autocomplete="none">
+<p>Email</p>
+<input id="em"type="email" placeholder="Email" required autocomplete="none">
+<p id="paa">Password</p><a href="#">Forgot your password?</a>
+<input id="pp" type="password" placeholder="Password" required minlength="8" autocomplete="none"> <br>
+
+<input id="sub" type="submit" value="Sign in">
+<br>
+<input id="chec" type="checkbox"> <span>Keep me signed in.</span>
+<br>
+<br>
+<hr>
+<p id="pos">New to IMDb?</p>
+<button id="but-g">Create your IMDb account</button>
+</form>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+   <a href="https:goggle.com">    
+<div class="swiper">
+   
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide"> <div class="imgg"> <img class="im"   src="img1.jpg" alt=""> </div>   <img class="imm" src="img4.jpeg" alt=""> <div class="wri"><div class="iii"> <i class="fa-solid fa-play"> </i></div><p>DUNE</p>  </div>  </div>
+      <div class="swiper-slide">  <div class="imgg"> <img class="im"src="img2.avif" alt="">  </div>  <img class="imm" src="img5.jpg" alt="">  <div class="wri"><div class="iii"><i class="fa-solid fa-play"> </i></div><p>DOCTOR STRANGE</p>  </div>  </div>
+      <div class="swiper-slide">  <div class="imgg"> <img class="im"src="img3.jpg" alt="">  </div>   <img class="imm"src="img6.webp" alt=""> <div class="wri"><div class="iii"><i class="fa-solid fa-play"> </i></div><p>OPPENHEIMER</p>  </div>   </div>
+      
+    </div>
+  
+    
+  
+    
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    
+  </div>
+</a> 
+
+    </div>
+<div class="con">
+<div class="Featured">
+
+<h1>Featured today</h1>
+<div class="grid">
+
+<div class="item">
+  <div class="lay">
+ <button> <i class="fa-solid fa-heart"></i></button>
+  <p>
+    This movie is one of today's rated movies. You can add it to my favorites list using the heart button.</p>
+</div>
+<img src="film1.jpg" alt="">
+
+</div>
+<div class="item">
+  <div class="lay">
+    <button> <i class="fa-solid fa-heart"></i></button>
+     <p>
+       This movie is one of today's rated movies. You can add it to my favorites list using the heart button.</p>
+   </div>
+<img src="film2.jpg" alt="">
+
+</div>
+<div class="item">
+  <div class="lay">
+    <button> <i class="fa-solid fa-heart"></i></button>
+     <p>
+       This movie is one of today's rated movies. You can add it to my favorites list using the heart button.</p>
+   </div>
+<img src="film3.jpg" alt="">
+
+</div>
+<div class="item">
+  <div class="lay">
+    <button> <i class="fa-solid fa-heart"></i></button>
+     <p>
+       This movie is one of today's rated movies. You can add it to my favorites list using the heart button.</p>
+   </div>
+<img src="film4.jpg" alt="">
+
+</div>
+<div class="item">
+  <div class="lay">
+    <button> <i class="fa-solid fa-heart"></i></button>
+     <p>
+       This movie is one of today's rated movies. You can add it to my favorites list using the heart button.</p>
+   </div>
+<img src="film5.jpg" alt="">
+
+</div>
+<div class="item">
+  <div class="lay">
+    <button> <i class="fa-solid fa-heart"></i></button>
+     <p>
+       This movie is one of today's rated movies. You can add it to my favorites list using the heart button.</p>
+   </div>
+<img src="film6.jpg" alt="">
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+</div>
+<div class="fan">
+  <h2>Fan favorites</h2>
+  <p>This week's top TV and movies</p>
+<div class="grid2">
+
+
+<div class="item2">
+<div class="part1">
+  <div class="layout">
+    <i class="fa-sharp fa-solid fa-eye"></i>
+</div>
+<img src="fan2.jpg" alt="">
+
+</div>
+<div class="part2">
+  <i class="fa-solid fa-star"></i> <span>7.6</span>
+  <a href="#">The Covenant</a>
+  <button class="button1"><i class="fa-solid fa-plus"></i> Watchlist</button>
+<button class="button2"><i class="fa-solid fa-play"></i> Trailer</button>
+</div>
+
+</div>
+
+<div class="item2">
+  <div class="part1">
+    <div class="layout">
+      <i class="fa-sharp fa-solid fa-eye"></i>
+    </div>
+<img src="fan3.jpg" alt="">
+  </div>
+  <div class="part2">
+    <i class="fa-solid fa-star"></i> <span>7.3</span>
+    <a href="#">SUper Mario</a>
+    <button class="button1"><i class="fa-solid fa-plus"></i> Watchlist</button>
+  <button class="button2"><i class="fa-solid fa-play"></i> Trailer</button>
+  </div>
+  
+  </div>
+
+<div class="item2">
+  <div class="part1">
+    <div class="layout">
+      <i class="fa-sharp fa-solid fa-eye"></i>
+    </div>
+<img src="fan4.jpg" alt="">
+  </div>
+  <div class="part2">
+    <i class="fa-solid fa-star"></i> <span>8.1</span>
+    <a href="#">The Diplomat</a>
+    <button class="button1"><i class="fa-solid fa-plus"></i> Watchlist</button>
+  <button class="button2"><i class="fa-solid fa-play"></i> Trailer</button>
+  </div>
+  
+  </div>
+
+<div class="item2">
+  <div class="part1">
+    <div class="layout">
+      <i class="fa-sharp fa-solid fa-eye"></i>
+    </div>
+<img src="fan5.jpg" alt="">
+  </div>
+  <div class="part2">
+    <i class="fa-solid fa-star"></i> <span>8.8</span>
+    <a href="#">The Last Of Us</a>
+    <button class="button1"><i class="fa-solid fa-plus"></i> Watchlist</button>
+  <button class="button2"><i class="fa-solid fa-play"></i> Trailer</button>
+  </div>
+  
+  </div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+<div class="born" id="BORN">
+<h2>Born today</h2>
+  <div class="today">
+
+<div class="pic" id="pic2">
+
+</div>
+
+
+  </div>
+
+
+
+
+
+</div>
+<div class="footer">
+
+
+
+
+ <div class="bor"> <i class="fa-brands fa-tiktok"></i></div>
+ <div class="bor"> <i class="fa-brands fa-instagram"></i></div>
+ <div class="bor"><i class="fa-brands fa-twitter"></i></div> 
+ <div class="bor"> <i class="fa-brands fa-youtube"></i></div>
+ <div class="bor"> <i class="fa-brands fa-square-facebook"></i></div>
+
+
+
+
+
+
+</div>
+<div class="rating">
+  <h1>What do you think about</h1>
+<div class="stars">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+<input type="radio" name="rr">
+</div>
+
+  
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="mypage.js"></script>
+</body>
+</html>
